@@ -99,9 +99,9 @@ export default async function LocationPage({ params }: Props) {
         <section className="bg-cream py-16 md:py-20">
           <div className="container-tight">
             <FadeIn className="max-w-2xl mb-10">
-              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} dairies</span>
-              <h2 className="mt-3 h-section">The full program, built for {loc.name} dairy farms.</h2>
-              <p className="mt-4 lead">From a family operation to a multi-site production group, we coordinate every line a {loc.name} dairy needs.</p>
+              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} paving contractors</span>
+              <h2 className="mt-3 h-section">The full program, built for {loc.name} paving operations.</h2>
+              <p className="mt-4 lead">From a small commercial crew to a DOT prime contractor, we coordinate every line a {loc.name} paving operation needs.</p>
             </FadeIn>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {SERVICES.slice(0, 4).map((s, i) => (
@@ -117,9 +117,9 @@ export default async function LocationPage({ params }: Props) {
           </div>
         </section>
 
-        <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Dairy insurance questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
+        <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Paving contractor insurance for <span className="text-clay">{loc.name}</span></>} background="sand" />
 
-        <CTABand title={`Insuring dairy farms in ${loc.name} since 2005`} description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
+        <CTABand title={`Insuring paving contractors in ${loc.name} since 2005`} description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
       </main>
       <Footer />
     </>
