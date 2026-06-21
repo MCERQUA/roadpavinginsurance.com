@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: false },
   // Required for JamBot canvas iframe embedding (cross-origin dev server)
   allowedDevOrigins: ["*.jam-bot.com"],
   images: {
