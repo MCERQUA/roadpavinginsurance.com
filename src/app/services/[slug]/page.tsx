@@ -8,16 +8,11 @@ import { CTABand } from "@/components/sections/CTABand";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { SERVICES, SITE } from "@/lib/site";
 import { SERVICE_DETAIL, GENERAL_FAQS, COPY } from "@/lib/content";
-import {
-  ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck,
-  Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes,
-  CheckCircle2, ArrowRight, ArrowLeft, Users, Target,
-  Milk, Droplets, Package, Layers, FileSignature,
-} from "lucide-react";
+import { ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck, Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes, CheckCircle2, ArrowRight, ArrowLeft, Users, Target, TrafficCone, Droplets, Package, Layers, FileSignature } from "lucide-react";
 
 const ICONS = {
   ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck, Building2, Umbrella,
-  PackageCheck, Factory, Gauge, Boxes, Milk, Droplets, Package, Layers, FileSignature,
+  PackageCheck, Factory, Gauge, Boxes, Droplets, Package, Layers, FileSignature,
 } as const;
 
 export function generateStaticParams() {
